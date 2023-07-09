@@ -2,13 +2,23 @@
     display: flex;
     height: 100px;
     background-color: grey;
+    align-items: center;
     justify-content: space-between;
 }
 
+
 .logo{
+    display: flex;
     font-size: 40px;
+    order: 1;
 }
 
-.header_links {
+.links {
     display: flex;
+    gap: 16px;
+    order: 1;
+}
+
+ul {
+    list-style-type: none;
 }
