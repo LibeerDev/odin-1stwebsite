@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    height: 100px;
+    background-color: grey;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.header_links {
+    display: flex;
+}
