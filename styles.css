@@ -52,13 +52,14 @@ ul {
 }
 
 .placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-left: 700px;
 }
 
 .title {
-    font-weight: 900px;
+    font-weight: bold;
     height: 50px;
     width: 300px;
 }
@@ -71,5 +72,80 @@ ul {
 }
 
 .signup_button {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
+    padding: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+.random_section {
+    display: flex;
+    height: 400px;
+    padding-top: 19px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9FAF8;
+}
+
+.random_images {
+    display: flex;
+    width: 800px;
+    gap: 50px; 
+    height: 200px;
+    justify-content: center;
+}
+
+
+.random_images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.quote_section {
+    display: flex;
+    height: 400px;
+    padding-top: 40px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+
+.quote {
+    width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 900;
+    align-self: flex-end;
+    margin-right: 300px;
+    font-size: 36px;
+}
+
+.call_to_action_section {
+    display: flex;
+    height: 400px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue_box {
+    display: flex;
+    width: 80%;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
 }
